@@ -6,7 +6,7 @@
 
 /**
  * @file
- * Implements Timezone meta strategy.
+ * Implements Bears & Bulls meta strategy.
  */
 
 // Includes the main code.
