@@ -6,8 +6,8 @@
 
 /**
  * @file
- * Implements Timezone meta strategy.
+ * Implements Bears & Bulls meta strategy.
  */
 
 // Includes the main code.
-#include "Stg_Meta_Timezone.mq5"
+#include "Stg_Meta_Bears_Bulls.mq5"
