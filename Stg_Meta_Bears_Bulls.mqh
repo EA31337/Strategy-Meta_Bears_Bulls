@@ -83,7 +83,7 @@ class Stg_Meta_Bears_Bulls : public Strategy {
     ENUM_TIMEFRAMES _tf = Get<ENUM_TIMEFRAMES>(STRAT_PARAM_TF);
     Ref<Strategy> _strat = StrategiesManager::StrategyInitByEnum(_sid, _tf);
     if (!_strat.IsSet()) {
-      _strat = StrategiesMetaManager::StrategyInitByEnum(_sid, _tf);
+      _strat = StrategiesMetaManager::StrategyInitByEnum((ENUM_STRATEGY_META)_sid, _tf);
     }
     if (_strat.IsSet()) {
       _strat.Ptr().Set<long>(STRAT_PARAM_ID, Get<long>(STRAT_PARAM_ID));
